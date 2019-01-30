@@ -1173,6 +1173,7 @@ X16RS 是 X16R 算法的升级版，基础原理是随机组合16中不同的哈
 ### 5. 签名剥离及数据压缩
 ### 6. 统一协议标准
 
+
 第十章、结论
 ---
 
@@ -1182,37 +1183,133 @@ X16RS 是 X16R 算法的升级版，基础原理是随机组合16中不同的哈
 【附录】
 ---
 
-  1. 参考引用
-  2. 区块数据结构定义完整示例及注释
-  3. 部分算法代码
+### 1. 参考引用
+  
+1) Adam Back, "Hashcash - A Denial of Service Counter-Measure", http://www.hashcash.org/papers/hashcash.pdf, 2002.
+2) Satoshi Nakamoto, "Bitcoin: A Peer-to-Peer Electronic Cash System", https://bitcoin.org/bitcoin.pdf, 2008.
+3) Ludwig von Mises, "Theory of Money and Credit", https://mises.org/sites/default/files/The%20Theory%20of%20Money%20and%20Credit_3.pdf, 1912.
+4) Friedrich August von Hayek, "Individualism and Economic Order", http://www.library.fa.ru/files/Hayek-Individualism.pdf, 1948.
+5) J.Huerta de Soto, "Money,Bank Credit and Economic Cycles", https://mises.org/sites/default/files/Money_Bank_Credit_and_Economic_Cycles_De%20Soto.pdf, 1997
+6) Joseph Poon, Thaddeus Dryja, "The Bitcoin Lightning Network: Scalable Off-Chain Instant Payments", https://lightning.network/lightning-network-paper.pdf, 2016.
 
+### 2. 区块数据结构定义示例及注释
 
+### 3. 部分算法代码
 
+#### 1) X16RS 哈希算法
 
+```js
 
+function X16RS_HASH( prevhash_buf, stuff_buf )
+{
+    function SHA3_256(a){ return crypto.randomBytes(32) } // suppose
+    var hashfuncs = [ // suppose 
+        function Blake(a){ return crypto.randomBytes(32) },
+        function BMW(a){ return crypto.randomBytes(32) },
+        function Groestl(a){ return crypto.randomBytes(32) },
+        function Jh(a){ return crypto.randomBytes(32) },
+        function Keccak(a){ return crypto.randomBytes(32) },
+        function Skein(a){ return crypto.randomBytes(32) },
+        function Luffa(a){ return crypto.randomBytes(32) },
+        function Cubehash(a){ return crypto.randomBytes(32) },
+        function Shavite(a){ return crypto.randomBytes(32) },
+        function Simd(a){ return crypto.randomBytes(32) },
+        function Echo(a){ return crypto.randomBytes(32) },
+        function Hamsi(a){ return crypto.randomBytes(32) },
+        function Fugue(a){ return crypto.randomBytes(32) },
+        function Shabal(a){ return crypto.randomBytes(32) },
+        function Whirlpool(a){ return crypto.randomBytes(32) },
+        function SHA512(a){ return crypto.randomBytes(32) },
+    ]
+    var hashloopnum = hashfuncs.length
+    , stephashs = []
+    for(var i=0; i<hashloopnum; i++){
+        var funcidx = prevhash_buf.readUInt8(31) % hashloopnum
+        // console.log(funcidx)
+        prevhash_buf = stuff_buf = hashfuncs[funcidx](stuff_buf)
+        stephashs.push(stuff_buf)
+        // console.log(stuff_buf.toString('hex'))
+        // console.log('----')
+    }
+    stuff_buf =  Buffer.concat(stephashs, hashloopnum*32)
+    return SHA3_256(stuff_buf)
+}
 
+```
 
+#### 2) 区块奖励新货币数量
 
+```js
 
+function calcBlockCoinBaseReward(block_height)
+{
+    var rwdns = [1,1,2,3,5,8,13,8,5,3,2,1,1] // length must uneven number
+    , frix = parseInt(rwdns.length / 2)
+    , pos = parseInt(block_height / (10000*10)) // almost 1 year
+    // console.log(frix, pos)
+    if(pos < frix){
+        return rwdns[pos]
+    }else if(pos < frix+((frix+1)*10)){
+        return rwdns[frix + parseInt((pos-frix)/10)]
+    }else{
+        return rwdns[rwdns.length-1]
+    }
+}
 
+```
 
+#### 3) 区块钻石哈希算法及判定规则
 
-如果说比特币是加密货币世界里的C语言的话，那么Hacash就是C++。
+```js
 
+function hash17diamond( buffer ){
+    // console.log(str.length)
+    if (buffer.length !== 32){
+        throw new Error("buffer must be hash256")
+    }
+    let stuff = '0WTYUIAHXVMEKBSZN'
+    , total = 16
+    , hhlen = stuff.length
+    let diamond = []
+    , fv = 0
+    for(let step=0;step<total;step++)
+    {
+        let i = step * 2
+        , n1 = buffer[i]
+        , n2 = buffer[i+1]
+        fv = (fv + n1 + n2) % hhlen
+        diamond.push( stuff.charAt(fv) )
+    }
+    return diamond.join('')
+}
 
+function checkDiamond(stuff) {
+    let chars = '0WTYUIAHXVMEKBSZN'
+    if(stuff.length == 16 && stuff.startsWith('0000000000')){
+        var sarys = stuff.substr(10).split('')
+        , first = true
+        // console.log(sarys)
+        while(true){
+            var l = sarys.shift()
+            , idx = chars.indexOf(l)
+            if(!l){
+                return first ? false : true
+            }
+            if(idx==-1){
+                return false
+            }else if(idx==0){
+                if(first){
+                    continue
+                }else{
+                    return false
+                }
+            }else{
+                first = false
+            }
+        }
+    }else{
+        return false
+    }
+}
 
-
-认为货币背后必须有实物支撑或法律背书的想法是错的，认为货币是全部财富或至少是区域财富的衡量或代表是错的，认为货币仅仅只是交易媒介、结算单位或者是方便物物交换的中间状态是错的，认为货币总量有限即会螺旋通缩锁死经济的想法是错的，认为生产货币的成本高于纸币就不值得的想法是错的，认为一个地方只能流通唯一一种货币否则将大幅增加交易成本的想法是错的，认为货币价格必须锚定或保持一个恒定值的想法是错的
-
-新货币通常在国家失去金融权威和信誉的时候走俏
-
-
-
-
-主权信用货币的归宿：纪念币。  
-
-枚、铢、烁、埃、渺
-
-
-为此系统取名为 Hacash，部分原因是向 HashCash 致敬。
-
+```
