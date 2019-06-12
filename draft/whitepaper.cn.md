@@ -1289,7 +1289,7 @@ function X16RS_HASH( prevhash_buf, stuff_buf )
 
 function calcBlockCoinBaseReward(block_height)
 {
-    var rwdns = [1,1,2,3,5,8,13,8,5,3,2,1,1] // length must uneven number
+    var rwdns = [1,1,2,3,5,8,8,5,3,2,1,1] // length must uneven number
     , frix = parseInt(rwdns.length / 2)
     , pos = parseInt(block_height / (10000*10)) // almost 1 year
     // console.log(frix, pos)
