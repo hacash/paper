@@ -65,6 +65,8 @@ There are 16 color options
 Different HACD facets will be randomly filled with the above different colors, 
 and the color depends on the HACD letter combination and the last 11 digits of the 32-bit hash.
 
+<img src=https://github.com/YouKenTrust/HACD/blob/main/visualization.png></img>
+
 ==Conclusion==
 The HIP-5's HACD visualization scheme is made up of 9 different shapes, 2 facets patterns (16-17), and 16 colors.
 
