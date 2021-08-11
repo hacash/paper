@@ -13,7 +13,7 @@ In addition to each HACD's letter combination, the serial number generated, the 
 The purpose of HIP-5 is to add another immutable element to each HACD on this basis: visualization, 
 to increase the investment and collection value of HACD and promote its brand identity.
 
-==The feasibility of HIP-5==
+==The Feasibility of HIP-5==
 The Hacash White Paper emphasizes that “a block diamond is a string of data that is compressed and calculated by a 32-bit hash value to meet a specific format.
 Each block can only contain at most one diamond (or zero, depending on the computing power)".
 
