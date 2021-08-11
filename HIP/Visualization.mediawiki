@@ -1,0 +1,70 @@
+<pre>
+BIP: 5
+Title: HACD Visualization 
+Author: Ken You, Sean Shen, JoJoin
+Created: 2021-08-11
+</pre>
+
+==The Goal of HIP-5==
+
+Hacash Diamond (HACD) is composed of 6 different letters, which constitute the key identifier distinguishing different HACDs. 
+These six letters are randomly formed from "WTYUIAHXVMEKBSZN". 
+In addition to each HACD's letter combination, the serial number generated, the address at the time of mining, the bidding fee, and the block height are also immutable. 
+The purpose of HIP-5 is to add another immutable element to each HACD on this basis: visualization, 
+to increase the investment and collection value of HACD and promote its brand identity.
+
+==The feasibility of HIP-5==
+The Hacash White Paper emphasizes that “a block diamond is a string of data that is compressed and calculated by a 32-bit hash value to meet a specific format.
+Each block can only contain at most one diamond (or zero, depending on the computing power)".
+
+Theoretically, the 32-bit hash can determine the look of a HACD, as long as the following four basic conditions are met:
+
+* Visual look is randomly generated as the literal value of a diamond.
+* Diamonds of scarce visual look has greater value, as in the case of special letter.
+* Visualization can not be determined entirely by the combination of letters.
+* HIP-5 designers can not manipulate the probability of visualization for HACD.
+
+The fairness of the HACD system will be ensured if all 4 requirements are met.
+
+==Implementation of HIP-5==
+
+Based on the above 4 conditions, three dimensions can be included in HACD visualization design: shape, facet, and color.
+
+===Shape of HACD===
+
+There are 9 HACD shapes, including 1 standard and 8 special shapes. 
+The special shapes are square, circle, heart, triangle, teardrop, ellipse, rhombus, and hexagon. 
+The shape of the diamond is determined by the last digit of the 32-bit hash: 0~7 are special-shaped diamonds, and 8~255 are standard diamonds. 
+This scheme ensures the extremely low probability of generating a special-shaped HACD.
+
+===Facet of HACD===
+
+There are 16-17 facets for each HACD, and the facet pattern depends on the shape of the HACD.
+
+===Color of HACD===
+
+There are 16 color options
+
+['041B2D', '004E9A'],    
+['004E9A', '428CD4'],    
+['8A5082', '6F5F90'],    
+['6F5F90', '758EB7'],    
+['8A5082', 'FF7B89'],    
+['FF7B89', 'A5CAD2'],    
+['F7D6E0', 'F2B5D4'],    
+['E5C1CD', 'C9BBC8'],    
+['EFF7F6', 'F7D6E0'],    
+['F3DBCF', 'AAC9CE'],    
+['AAC9CE', 'B6B4C2'],    
+['F2B5D4', '7BDFF2'],    
+['7BDFF2', 'B2F7EF'],    
+['85CBCC', 'A7D676'],    
+['daad7b', 'F9E2AE'],    
+['F9E2AE', 'A8DEE0']。
+
+Different HACD facets will be randomly filled with the above different colors, 
+and the color depends on the HACD letter combination and the last 11 digits of the 32-bit hash.
+
+==Conclusion==
+The HIP-5's HACD visualization scheme is made up of 9 different shapes, 2 facets patterns (16-17), and 16 colors.
+
