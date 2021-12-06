@@ -23,7 +23,7 @@ The premise of an effective attack is that the vast majority of all nodes in the
 
 The only difference between an attacker and an honest miner is whether to broadcast the newly mined block to the entire network immediately and in a timely manner. If no one conceals the newly mined block, there is no attack. Then the key to the problem lies in how to force everyone to broadcast blocks in time from the benefit or punishment mechanism, or to design an identification mechanism or chain selection protocol so that the concealed blocks are not recognized by everyone.
 
-This means that we must abandon the deeply rooted "Longest Chain Principle" and replace it with the "Publicity of the Widest Chain Principle."
+This means that we must abandon the deeply rooted "The Longest Chain Rule" and replace it with the "The Broadest Chain Rule".
 
 Distribute the judgment power of the effective chain from the miners to the full nodes of the entire network. Miners dig out blocks and broadcast them, and the nodes of the entire network supervise in real time and jointly judge whether the mined blocks have been published in a timely and extensive manner.
 
