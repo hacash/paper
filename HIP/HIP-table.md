@@ -11,6 +11,7 @@ Status mark:
 
 | |HIP|Name|Document|Discuss|
 |---|:---:|---|---:|---:|
+|❔|9|HACD Game of life| |[discord ➚](https://discord.com/channels/757976908653920299/844038285260619797/1044241318966198332)|
 |🟩|8|HACD brilliance visualization|[github ➚](https://github.com/hacash/paper/blob/master/HIP/diamond/hacd_brilliance_visualization.md)|[discord ➚](https://discord.com/channels/757976908653920299/802807729584209920/1016212561017970709)|
 |✔|7|Beacon Tower Protocol - avoid 51% attack|[github ➚](https://github.com/hacash/paper/blob/master/HIP/protocol/PoW_of_avoid_51_percent_attack.en.md)| |
 |🟩|6|HDNS - Hacash Diamond Name Service|[github ➚](https://github.com/hacash/paper/blob/master/HIP/diamond/diamond_name_service.md)|[discord ➚](https://discord.com/channels/757976908653920299/844038285260619797/905760527945433118)|
