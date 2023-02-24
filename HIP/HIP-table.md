@@ -11,6 +11,7 @@ Status mark:
 
 | |HIP|Name|Document|Discuss|
 |---|:---:|---|---:|---:|
+|❔|11|HAC issuance rules consensus|[github ➚](https://github.com/hacash/paper/blob/master/HIP/currency/HAC_currency_issuance_rules_consensus_proposal.pdf)|[discord ➚](https://discord.com/channels/757976908653920299/844038285260619797/1077972477357072494)|
 |❔|10|PoW Art Standard|[github ➚](https://github.com/hacash/paper/blob/master/HIP/diamond/PoW_Art_Standard.mediawiki)| |
 |🟩|9|HACD Game of life|[github ➚](https://github.com/hacash/paper/blob/master/HIP/diamond/hacd_game_of_life.pdf)|[discord ➚](https://discord.com/channels/757976908653920299/844038285260619797/1044241318966198332)|
 |🟩|8|HACD brilliance visualization|[github ➚](https://github.com/hacash/paper/blob/master/HIP/diamond/hacd_brilliance_visualization.md)|[discord ➚](https://discord.com/channels/757976908653920299/802807729584209920/1016212561017970709)|
