@@ -176,7 +176,7 @@ func NewActionByKind(kind uint16) (interfaces.Action, error) {
 		//（作为撮合交易的服务费） 
 		act_id: 13,
 		amount: "1.5HAC",
-		from_address: "1P6DHQYjP6WygqTCzwXpwo7TxWqhA1SgVY"
+		from_address: "1MzNY1oA3kfgYi75zquj3SRUPYztzXHzK9"
 	},{
 		// 合约条目类型 14， 表示 from_address 向 to_address 支付 amount 的 HAC 
 		// 买家支付给卖家
