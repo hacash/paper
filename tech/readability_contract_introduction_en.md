@@ -1,0 +1,2 @@
+# Hacash Readability Contract Introduction
+
