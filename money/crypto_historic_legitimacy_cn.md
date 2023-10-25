@@ -11,7 +11,7 @@ Hacash 密码货币历史正统性
 
 比特币技术谱系图：
 
-![比特币技术谱系图](https://pics3.baidu.com/feed/a5c27d1ed21b0ef40059aa9b2876ecd183cb3efb.png)
+![比特币技术谱系图](https://hacash.money/image/bitcoin_tech.jpg)
 
 （ [查看大图1](https://image.coinpedia.org/wp-content/uploads/2023/02/17162344/Bitcoin-Prehistory-1-1024x512.png) ）
 （ [查看大图2](https://twitter.com/okx/status/1679296607685050368/photo/1)  ）
@@ -40,7 +40,7 @@ David Chaum在《用于不可追踪的支付系统的盲签名》(Blind Signatur
 
 NFT 普遍被认为是最早被 Hal Finney 于 1993 年提出。Hal Finney 分享了一个有趣的概念，关于展示自己拥有的数字现金的方法可以通过 “加密交易卡”来进行。这种加密交易卡应当是单向函数和数字签名以及随机盲法的混合。这是目前公开途径可以查询到的最早关于 NFT 最早的阐述和想法，但受限于技术不成熟，该想法仅停留在概念阶段。
 
-![Crypto Trading Cards](https://pics0.baidu.com/feed/b3fb43166d224f4af37ca11a742892599922d139.jpeg)
+![Crypto Trading Cards](https://hacash.money/image/crypto_card.jpg)
 
 值得特别注意的是 Hal 对这个“加密卡片”的描述：“...the fine way of the bit patterns fit together - mix of one-way functions ... with random blinding...”，一种单向函数（hash函数）和随机盲化（Nonce随机值）得到的一个bit值的优美组合方式（比如连续、同样的bit位值），指通过不断地哈希函数碰撞得到预定规则的目标结果。由于哈希函数的结果不仅是随机的，而且是无限的，所以，有价值（fine bit）的加密交易卡的计算结果只可能是以某种有预定规则、看起来美观的方式排列的哈希值（例如以连续的0开头的哈希）。今天我们已经知道，这就是工作量证明（PoW）的运行方式。这早于现在公认的 PoW 发明者 Hashcash，并且它不仅能够作为共识机制，同时还是一种价值标准。
 
