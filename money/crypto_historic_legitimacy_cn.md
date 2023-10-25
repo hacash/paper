@@ -209,7 +209,7 @@ Szabo 想出了一个可能的解决办法。那就是一旦找到了一个有�
 
 就像比特币是站在B-money、Bit Gold 和 RPOW 这些未能成功的历史性项目的肩膀上而不是凭空跳出来一样，技术上的创造性突破需要以某些已经达成的基础工作为条件，而不能丢弃它们走回头路。例如比特币已经用去账本的中心化达成了抗审查性，那么后来创建的项目就没有理由简单地为了交易处理性能而牺牲了去中心化。保持去中心化，就算走得缓慢，也必须努力找到出路。
 
-我们这里不去详细介绍 Hacash 的两个原生 PoW 代币（HAC、HACD）以及通过单向转移继承、兼容比特币的各种技术、设计和机制。总结来说：HAC 的目标是购买力稳定的加密健全货币， 是 1998 年戴伟的 B-money 以及 Nick Szabo 的 Bit Gold 的完美继承者；而 HACD 作为世界第一个 PoW NFT ，是1993 年 Hal Finney 的描述的 Crypto Trading Cards 以及 Nick Szabo 的 Bit Gold 完整实现。
+我们这里不去详细介绍 Hacash 的两个原生 PoW 代币（HAC、HACD）以及通过单向转移继承、兼容比特币的各种技术、设计和机制。总结来说：HAC 的目标是购买力稳定的加密健全货币， 是 1998 年戴伟的 B-money 以及 Nick Szabo 的 Bit Gold 的完美继任者；而 HACD 作为世界第一个 PoW NFT ，是 1993 年 Hal Finney 的描述的 Crypto Trading Cards 以及 1998 年 Nick Szabo 的 Bit Gold 完整实现。
 
 ---
 
