@@ -587,12 +587,13 @@ Pass parameters:
 
 - txhash [string] The hash value of the transaction to increase the fee
 - fee [string] The target fee to be modified
-- unitmei [bool] Optional, whether to use the unit "piece" as the unit passed in the `fee` field
 - fee_prikey [string] The private key of the fee address
+- unitmei [bool] Optional, whether to use the unit "piece" as the unit passed in the `fee` field
+- txbody [hex] Optional, when the transaction does not exist in the transaction pool, modify the fee by using the submitted txbody, and broadcast the transaction to the whole network again
 
 Example Access Interface: 
 
-[http://rpcapi.hacash.org/operate?action=raise_tx_fee&fee_prikey=8D969EEF6ECAD3C29A3A629280E686CF0C3F5D5A86AFF3CA12020C923ADC6C92&fee=ㄜ32:247&txhash=ad26a35116664176426f3c08adad147577b9a85999cb89d465becf6a27002c04](http://rpcapi.hacash.org/operate?action=raise_tx_fee&fee_prikey=8D969EEF6ECAD3C29A3A629280E686CF0C3F5D5A86AFF3CA12020C923ADC6C92&fee=ㄜ32:247&txhash=ad26a35116664176426f3c08adad147577b9a85999cb89d465becf6a27002c04)``
+[http://rpcapi.hacash.org/operate?action=raise_tx_fee&fee_prikey=8D969EEF6ECAD3C29A3A629280E686CF0C3F5D5A86AFF3CA12020C923ADC6C92&fee=ㄜ32:247&txhash=ad26a35116664176426f3c08adad147577b9a85999cb89d465becf6a27002c04](http://rpcapi.hacash.org/operate?action=raise_tx_fee&fee_prikey=8D969EEF6ECAD3C29A3A629280E686CF0C3F5D5A86AFF3CA12020C923ADC6C92&fee=ㄜ32:247&txhash=ad26a35116664176426f3c08adad147577b9a85999cb89d465becf6a27002c04)
 
 Example of interface return:
 
