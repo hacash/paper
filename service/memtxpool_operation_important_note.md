@@ -12,7 +12,7 @@ Like Bitcoin, the Hacash mainnet is designed according to the [Stable and Lean D
 
 Hacash's unique anti-51% attack technology [Beacon Tower Protocol](https://github.com/hacash/paper/blob/master/HIP/protocol/tech/PoW_of_avoid_51_percent_attack.md) protects the blockchain from malicious attacks.
 
-In addition to analyzing and blocking malicious hashrate attacks, this protocol also stipulates the Hacash blockchain fork checkpoint: 4 blocks. This means that transactions that are highly confirmed by 4 or more blocks are secure and non-reversible, but, transactions that are less than 4 block of confirmation may be reversed.
+In addition to analyzing and blocking malicious hashrate attacks, this protocol also stipulates the Hacash blockchain fork checkpoint: 4 blocks. This means that transactions that are highly confirmed by 4 or more blocks are secure and non-reversible, but, transactions that are less than 4 block of confirmation may be reversed. For example, if the latest mined block is 501844, the transactions contained in blocks of 501840 and lower height are secure and irrevocable.
 
 > It is recommended that exchanges set a waiting (final confirmation) time of 4 blocks for large deposits, otherwise they may be exploited maliciously
 
