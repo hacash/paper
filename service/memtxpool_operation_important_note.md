@@ -8,6 +8,16 @@ Like Bitcoin, the Hacash mainnet is designed according to the [Stable and Lean D
 
 ### Design Description
 
+#### 1. 区块确认
+
+Hacash 独创的防 51% 算力攻击的技术 [烽火台协议](https://github.com/hacash/doc-chinese/blob/main/HIP/protocol/tech/PoW_of_avoid_51_percent_attack.md) 能保护区块链不被恶意攻击。
+
+此协议除了对恶意算力攻击行为进行分析和阻挡之外，还规定了 Hacash 区块链分叉检查点：4个区块。 这意味着被4个区块高度确认的交易是安全的、不可回退的，而在4个区块确认以内的交易有可能被撤销。
+
+> 建议交易所为大额充值设置 4 个区块的等待（最终确认）时间，否则有可能被恶意利用
+
+#### 2. 交易池
+
 Hacash's transaction pool is a memtxpool with the fixed  capacity, and this implementation was chosen for the following reasons:
 
 - Setting the maximum capacity will reduce the storage burden on the device to support a normal PC or even an embedded device running a full node
