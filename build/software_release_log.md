@@ -75,6 +75,12 @@ Hacash Software Download link and Release log
 ### Lastest release log:
 
 
+#### Version: 0.1.18  (2023.12.03.01)
+
+update log:
+
+> [1] change: RPC API `raise_tx_fee` support txbody.
+
 #### Version: 0.1.16  (2023.10.26.01)
 
 update log:
