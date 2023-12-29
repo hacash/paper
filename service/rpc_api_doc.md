@@ -1,5 +1,3 @@
-Got this english version doc from: https://github.com/jcb55/jcb-hacash/blob/main/rpc_api_doc.en.md , thank you [jcb55](https://github.com/jcb55) ^_^.
-
 Hacash full node RPC API documentation
 ===
 
