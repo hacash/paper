@@ -1,12 +1,12 @@
 Hacash Software Download link and Release log
 ===
 
->
-> Starting with version 0.1.20, Hacash's wallet and full node will only be released via Github/releases, and the software download link that was originally located on hacash.org will be removed.
-> See: [https://github.com/hacash/node/releases](https://github.com/hacash/node/releases) 
->
+**Starting with version 0.1.20, Hacash's wallet and full node will only be released via Github/releases, and the software download link that was originally located on hacash.org will be removed.**
 
-### Lastest release log:
+**Lastest Version Download: [https://github.com/hacash/node/releases](https://github.com/hacash/node/releases)**
+
+
+### Old release log:
 
 
 #### Version: 0.1.18  (2023.12.03.01)
