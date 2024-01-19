@@ -1,4 +1,4 @@
-HIP-15 Equity account model and readable contract syntax tree abstraction
+HIP-16 Equity account model and readable contract syntax tree abstraction
 ===
 
 The Hacash white paper describes a new account model called [Hierarchical Equity Control Account], which is a more flexible and powerful account type than multi-signature management and can adapt to the organized and institutionalized asset management methods of the modern financial system.
@@ -9,7 +9,7 @@ The core of the so-called account abstraction is the abstraction of asset manage
 
 Technically speaking, the purpose of the account abstraction upgrade that Ethereum wants to achieve is to achieve the function of hierarchical equity control accounts similar to Hacash. Combined with Hacash's [Readable Financial Contract], as a major upgrade of Ethereum, "account abstraction" can be naturally supported within Hacash, and it is based on the most mature technical architecture, rather than patching technology that requires compatibility.
 
-As a result, HIP-15 was proposed, with the goal of conceptually upgrading the readable financial contracts that Hacash already had and available, called a "contract abstract syntax tree". The interpreter of the contract changed from a one-dimensional combined financial The interpretation of the contract is upgraded to the interpretation of the program logic syntax tree, which can be a tree structure. The readability and simplicity of the contract continue to be retained, but a series of `action` or `OP_CODE` for logic control and basic operations are added, which can directly upgrade the readable financial contract to a "syntax tree" that can perform general calculations ". This will bring about a huge improvement in contract programmability, while also avoiding various weaknesses, complexity and security issues based on common stack virtual machines (such as EVM).
+As a result, HIP-16 was proposed, with the goal of conceptually upgrading the readable financial contracts that Hacash already had and available, called a "contract abstract syntax tree". The interpreter of the contract changed from a one-dimensional combined financial The interpretation of the contract is upgraded to the interpretation of the program logic syntax tree, which can be a tree structure. The readability and simplicity of the contract continue to be retained, but a series of `action` or `OP_CODE` for logic control and basic operations are added, which can directly upgrade the readable financial contract to a "syntax tree" that can perform general calculations ". This will bring about a huge improvement in contract programmability, while also avoiding various weaknesses, complexity and security issues based on common stack virtual machines (such as EVM).
 
 In a sense, this becomes a concept of great significance in terms of blockchain programmability: human-readable financial contracts and programmability to perform general-purpose calculations are consistently abstracted and perfectly unified.
 
@@ -28,7 +28,7 @@ More importantly, this technology also solves multiple needs within the Hacash s
 4. It can more flexibly support more expansion goals, such as various types of Rollup or L3 expansion, or asset issuance at one layer, such as the HRC-20 protocol.
 
 
-At the same time, HIP-15 only requires minor improvements based on existing readable financial contracts and maintains forward compatibility. The simplicity and decentralization of the mainnet will not be affected.
+At the same time, HIP-16 only requires minor improvements based on existing readable financial contracts and maintains forward compatibility. The simplicity and decentralization of the mainnet will not be affected.
 
 Here is a simple contract code that demonstrates "account abstraction" for equity control addresses:
 

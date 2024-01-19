@@ -1,4 +1,4 @@
-HIP-15: HACD Inscription (Implementation draft)
+HIP-15: HACD Inscription
 ===
 
 This document is a compilation and summary of the community's discussions on the HIP-15, including technical and economic models, with the goal of developing a compendium that can be used to guide technology development.
