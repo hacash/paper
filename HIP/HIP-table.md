@@ -11,7 +11,6 @@ Status mark:
 
 | |HIP|Name|Document|Discuss|
 |---|:---:|---|---:|---:|
-
 |❔|16|Programmability of Layer 1| [github ➚](https://github.com/hacash/paper/blob/master/HIP/protocol/account_and_syntax_tree_abstraction.md) | |
 |✔️|15|HACD secondary artistic creation| [github ➚](https://github.com/hacash/paper/blob/master/HIP/diamond/hacd_inscription.md) |[hacashtalk ➚](https://hacashtalk.com/t/hip15-hacd-secondary-artistic-creation-signature-engraving-and-erasure/184)|
 |❔|14|Bitcoin Fork Selection Rules| |[github ➚](https://github.com/hacash/paper/blob/master/HIP/currency/bitcoin_fork_selection_rules.cn.md)|
