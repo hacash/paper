@@ -10,7 +10,7 @@ Whitepaper & Documents & Hacash improvement proposals & theoretical articles
 
 ### Software download & release log
 
-Release: [software_release_log.md](https://github.com/hacash/paper/blob/master/build/software_release_log.md)
+Release: [Software Release](https://github.com/hacash/node/releases)
 
 ### Compilation build instructions 
 
