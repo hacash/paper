@@ -1,76 +1,10 @@
 Hacash Software Download link and Release log
 ===
 
-### Download the latest version of software on [hacash.org](https://hacash.org):
-
-1. Hacash full node: 
-
-    [miner_node_hacash_windows64.zip](https://download.hacash.org/miner_node_hacash_windows64.zip)
-    <br>
-    [miner_node_hacash_ubuntu64.zip](https://download.hacash.org/miner_node_hacash_ubuntu64.zip)
-    <br>
-    [miner_node_hacash_MacOS_64.zip](https://download.hacash.org/miner_node_hacash_macos64.zip)
-
-2. Miner pool worker:
-
-    [miner_pool_worker_windows64.zip](https://download.hacash.org/miner_pool_worker_hacash_windows64.zip)
-    <br>
-    [miner_pool_worker_ubuntu64.zip](https://download.hacash.org/miner_pool_worker_hacash_ubuntu64.zip)
-    <br>
-    [miner_pool_worker_MacOS_64.zip](https://download.hacash.org/miner_pool_worker_hacash_macos64.zip)
-
-3. Miner worker:
-
-    [miner_worker_windows64.zip](https://download.hacash.org/miner_worker_hacash_windows64.zip)
-    <br>
-    [miner_worker_ubuntu64.zip](https://download.hacash.org/miner_worker_hacash_ubuntu64.zip)
-    <br>
-    [miner_worker_MacOS_64.zip](https://download.hacash.org/miner_worker_hacash_macos64.zip)
-
-4. Miner relay service:
-
-    [miner_relay_service_windows64.zip](https://download.hacash.org/miner_relay_service_hacash_windows64.zip)
-    <br>
-    [miner_relay_service_ubuntu64.zip](https://download.hacash.org/miner_relay_service_hacash_ubuntu64.zip)
-    <br>
-    [miner_relay_service_MacOS_64.zip](https://download.hacash.org/miner_relay_service_hacash_macos64.zip)
-
-5. PC desktop offline wallet:
-
-    [hacash_desktop_wallet_windows64.zip](https://download.hacash.org/hacash_desktop_wallet_windows64.zip)
-    <br>
-    [hacash_desktop_wallet_ubuntu64.zip](https://download.hacash.org/hacash_desktop_wallet_ubuntu64.zip)
-    <br>
-    [hacash_desktop_wallet_MacOS_64.zip](https://download.hacash.org/hacash_desktop_wallet_macos64.zip)
-
-6. Command line wallet:
-
-   [hacash_cmdwallet_windows64.zip](https://download.hacash.org/hacash_cmdwallet_windows64.zip)
-   <br>
-   [hacash_cmdwallet_ubuntu64.zip](https://download.hacash.org/hacash_cmdwallet_ubuntu64.zip)
-   <br>
-   [hacash_cmdwallet_MacOS_64.zip](https://download.hacash.org/hacash_cmdwallet_macos64.zip)
-
-
-7. Channel Payment Node Servicer:
-
-   [hacash_channelpay_servicer_windows64.zip](https://download.hacash.org/hacash_channelpay_servicer_windows64.zip)
-   <br>
-   [hacash_channelpay_servicer_ubuntu64.zip](https://download.hacash.org/hacash_channelpay_servicer_ubuntu64.zip)
-   <br>
-   [hacash_channelpay_servicer_MacOS_64.zip](https://download.hacash.org/hacash_channelpay_servicer_macos64.zip)
-
-   
-8. Channel Payment User Client:
-
-   [hacash_channelpay_client_windows64.zip](https://download.hacash.org/hacash_channelpay_client_windows64.zip)
-   <br>
-   [hacash_channelpay_client_ubuntu64.zip](https://download.hacash.org/hacash_channelpay_client_ubuntu64.zip)
-   <br>
-   [hacash_channelpay_client_MacOS_64.zip](https://download.hacash.org/hacash_channelpay_client_macos64.zip)
-
-    
----
+>
+> Starting with version 0.1.20, Hacash's wallet and full node will only be released via Github/releases, and the software download link that was originally located on hacash.org will be removed.
+> See: [https://github.com/hacash/node/releases](https://github.com/hacash/node/releases) 
+>
 
 ### Lastest release log:
 
@@ -208,3 +142,77 @@ need resync block data, update log:
 
 
 _end_
+
+
+
+### Download the old version of software on [hacash.org](https://hacash.org):
+
+1. Hacash full node: 
+
+    [miner_node_hacash_windows64.zip](https://download.hacash.org/miner_node_hacash_windows64.zip)
+    <br>
+    [miner_node_hacash_ubuntu64.zip](https://download.hacash.org/miner_node_hacash_ubuntu64.zip)
+    <br>
+    [miner_node_hacash_MacOS_64.zip](https://download.hacash.org/miner_node_hacash_macos64.zip)
+
+2. Miner pool worker:
+
+    [miner_pool_worker_windows64.zip](https://download.hacash.org/miner_pool_worker_hacash_windows64.zip)
+    <br>
+    [miner_pool_worker_ubuntu64.zip](https://download.hacash.org/miner_pool_worker_hacash_ubuntu64.zip)
+    <br>
+    [miner_pool_worker_MacOS_64.zip](https://download.hacash.org/miner_pool_worker_hacash_macos64.zip)
+
+3. Miner worker:
+
+    [miner_worker_windows64.zip](https://download.hacash.org/miner_worker_hacash_windows64.zip)
+    <br>
+    [miner_worker_ubuntu64.zip](https://download.hacash.org/miner_worker_hacash_ubuntu64.zip)
+    <br>
+    [miner_worker_MacOS_64.zip](https://download.hacash.org/miner_worker_hacash_macos64.zip)
+
+4. Miner relay service:
+
+    [miner_relay_service_windows64.zip](https://download.hacash.org/miner_relay_service_hacash_windows64.zip)
+    <br>
+    [miner_relay_service_ubuntu64.zip](https://download.hacash.org/miner_relay_service_hacash_ubuntu64.zip)
+    <br>
+    [miner_relay_service_MacOS_64.zip](https://download.hacash.org/miner_relay_service_hacash_macos64.zip)
+
+5. PC desktop offline wallet:
+
+    [hacash_desktop_wallet_windows64.zip](https://download.hacash.org/hacash_desktop_wallet_windows64.zip)
+    <br>
+    [hacash_desktop_wallet_ubuntu64.zip](https://download.hacash.org/hacash_desktop_wallet_ubuntu64.zip)
+    <br>
+    [hacash_desktop_wallet_MacOS_64.zip](https://download.hacash.org/hacash_desktop_wallet_macos64.zip)
+
+6. Command line wallet:
+
+   [hacash_cmdwallet_windows64.zip](https://download.hacash.org/hacash_cmdwallet_windows64.zip)
+   <br>
+   [hacash_cmdwallet_ubuntu64.zip](https://download.hacash.org/hacash_cmdwallet_ubuntu64.zip)
+   <br>
+   [hacash_cmdwallet_MacOS_64.zip](https://download.hacash.org/hacash_cmdwallet_macos64.zip)
+
+
+7. Channel Payment Node Servicer:
+
+   [hacash_channelpay_servicer_windows64.zip](https://download.hacash.org/hacash_channelpay_servicer_windows64.zip)
+   <br>
+   [hacash_channelpay_servicer_ubuntu64.zip](https://download.hacash.org/hacash_channelpay_servicer_ubuntu64.zip)
+   <br>
+   [hacash_channelpay_servicer_MacOS_64.zip](https://download.hacash.org/hacash_channelpay_servicer_macos64.zip)
+
+   
+8. Channel Payment User Client:
+
+   [hacash_channelpay_client_windows64.zip](https://download.hacash.org/hacash_channelpay_client_windows64.zip)
+   <br>
+   [hacash_channelpay_client_ubuntu64.zip](https://download.hacash.org/hacash_channelpay_client_ubuntu64.zip)
+   <br>
+   [hacash_channelpay_client_MacOS_64.zip](https://download.hacash.org/hacash_channelpay_client_macos64.zip)
+
+    
+---
+
