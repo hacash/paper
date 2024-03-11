@@ -90,7 +90,7 @@ and the lower the cost of computing power. However, the bidding cost cannot be d
 The bidding mechanism determines the maximum release HACDs that can be minted every day and every year, controls the release speed of HACD, and avoids being seized by big miners or "scientists" in a short period of time with capital or information advantages for most of the chips in the early stage. Players always have the opportunity to invest computing power and bidding fees to obtain the desired HACD according to the market value, so as to achieve long-term fairness in distribution.
 
 
-**HACD Casting Notes**
+**HACD Minting Notes**
 
 HACD mining is subject to many aspects, including computing power, networking, and bidding strategies, and it takes more time and practice to fully understand all aspects of overall mining. If you need to cast as many diamonds successfully as possible, here are a few things to keep in mind:
 
