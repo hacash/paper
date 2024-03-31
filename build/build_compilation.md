@@ -88,6 +88,10 @@ normally the executables are started with config file as argument.
 
 ## Compile the go executables
 
+Note regarding environment variable GO111MODULE, if you are running Go version greater than Go 1.17, Go will ignore environment variable GO111MODULE. If your Go version is less than Go 1.17, then you can follow the following note.
+
+Please refer to document https://go.dev/blog/go116-module-changes for specifics regarding environment variable GO111MODULE
+
 Note to set the GO111MODULE="auto" environment variable at compile time:
 
 ```cgo
@@ -101,13 +105,13 @@ Start to compile:
 cd ~/go/src/github.com/hacash
 
 1. poolworker
- go build -ldflags '-w -s' -o poolminer_2021-0410.exe miner/run/minerpoolworker/main.go
+ go build -ldflags '-w -s' -o poolminer_2021-0410 miner/run/minerpoolworker/main.go
 
 2. miner
-go build -ldflags '-w -s' -o miner_2021_02_12.exe  miner/run/main/main.go
+go build -ldflags '-w -s' -o miner_2021_02_12 miner/run/main/main.go
 
 3. cmdwallet
-go build -ldflags '-w -s' -o cmdwallet_2021_02_12.exe cmdwallet/run/main/main.go
+go build -ldflags '-w -s' -o cmdwallet_2021_02_12 cmdwallet/run/main/main.go
 
 ```
 
