@@ -20,9 +20,9 @@ Status mark:
 |❔|10|PoW Art Standard|[github ➚](https://github.com/hacash/paper/blob/master/HIP/diamond/PoW_Art_Standard.mediawiki)| |
 |🟩|9|HACD Game of life|[github ➚](https://github.com/hacash/paper/blob/master/HIP/diamond/hacd_game_of_life.pdf)|[discord ➚](https://discord.com/channels/757976908653920299/844038285260619797/1044241318966198332)|
 |🟩|8|HACD brilliance visualization|[github ➚](https://github.com/hacash/paper/blob/master/HIP/diamond/hacd_brilliance_visualization.md)|[discord ➚](https://discord.com/channels/757976908653920299/802807729584209920/1016212561017970709)|
-|✔|7|Beacon Tower Protocol - avoid 51% attack|[github ➚](https://github.com/hacash/paper/blob/master/HIP/protocol/PoW_of_avoid_51_percent_attack.en.md)| |
+|✔|7|Beacon Tower Protocol - avoid 51% attack|[github ➚](https://github.com/hacash/paper/blob/master/HIP/protocol/PoW_of_avoid_51_percent_attack.md)| |
 |🟩|6|HDNS - Hacash Diamond Name Service|[github ➚](https://github.com/hacash/paper/blob/master/HIP/diamond/diamond_name_service.md)|[discord ➚](https://discord.com/channels/757976908653920299/844038285260619797/905760527945433118)|
-|🟩|5|HACD visualization|[github ➚](https://github.com/hacash/paper/blob/master/HIP/diamond/DiamondVisualization.en.mediawiki)| |
+|🟩|5|HACD visualization|[github ➚](https://github.com/hacash/paper/blob/master/HIP/diamond/DiamondVisualization.mediawiki)| |
 |❔|4|Bitcoin & HACD loan HAC between users| |[discord ➚](https://discord.com/channels/757976908653920299/844038285260619797/845574697966108672)|
 |❔|3|Bitcoin lending| |[discord ➚](https://discord.com/channels/757976908653920299/844038285260619797/845468880041541632)|
 |❔|2|HACD mortgage loan HAC| |[hacashtalk ➚](https://hacashtalk.com/t/diamond-mortgage-loan-proposal/117)|

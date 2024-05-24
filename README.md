@@ -14,19 +14,19 @@ Release: [Software Release](https://github.com/hacash/node/releases)
 
 ### Compilation build instructions 
 
-Compilation build instructions: [build_compilation_en.md](https://github.com/hacash/paper/blob/master/build/build_compilation.md)
+Compilation build instructions: [build_compilation.md](https://github.com/hacash/paper/blob/master/build/build_compilation.md)
 
 ---
 
 ### RPC API Doc 
 
-[rpc_api_doc.en.md](https://github.com/hacash/paper/blob/master/service/rpc_api_doc.md) 
+[rpc_api_doc.md](https://github.com/hacash/paper/blob/master/service/rpc_api_doc.md) 
 
 ---
 
 ### Miner service Doc
 
-[miner_service_api.en.md](https://github.com/hacash/paper/blob/master/service/miner_service_api.md)
+[miner_service_api.md](https://github.com/hacash/paper/blob/master/service/miner_service_api.md)
 
 
 
@@ -34,14 +34,14 @@ Compilation build instructions: [build_compilation_en.md](https://github.com/hac
 
 ### X16RS algorithm design explanation
 
-[x16rs_algorithm_description.en.md](https://github.com/hacash/paper/blob/master/tech/x16rs_algorithm_description.md)
+[x16rs_algorithm_description.md](https://github.com/hacash/paper/blob/master/tech/x16rs_algorithm_description.md)
 
 
 ---
 
 ### HAC & HACD mining fairness description
 
-[HAC_HACD_mining_fairness_description.en.md](https://github.com/hacash/paper/blob/master/tech/HAC_HACD_mining_fairness_description.md)
+[HAC_HACD_mining_fairness_description.md](https://github.com/hacash/paper/blob/master/tech/HAC_HACD_mining_fairness_description.md)
 
 
 ---
